@@ -1,7 +1,7 @@
 $('document').ready(function() {
 
 
-        var myQuestions = [{
+        var questions = [{
                 question: "Where was Dracula born?",
                 answers: {
                     a: 'Slovakia',
@@ -138,10 +138,10 @@ $('document').ready(function() {
 
         resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
     }
-    showQuestions(myQuestions, quizContainer);
+    showQuestions(questions, quizContainer);
 
     submitButton.onclick = function() {
-        showResults(myQuestions, quizContainer, resultsContainer);
+        showResults(questions, quizContainer, resultsContainer);
     };
 
 
@@ -151,5 +151,5 @@ var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
 var submitButton = document.getElementById('submit');
 
-generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+generateQuiz(questions, quizContainer, resultsContainer, submitButton);
     });
