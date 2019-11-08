@@ -5,17 +5,17 @@ $('document').ready(function() {
         var myQuestions = [{
                 question: "Where was Dracula born?",
                 answers: {
-                    a: 'Slovakia'
-                    b: 'Romania'
-                    c: 'Hungary'
+                    a: 'Slovakia',
+                    b: 'Romania',
+                    c: 'Hungary',
                 },
                 correctAnswer: 'b'
             },
             {
                 question: "In which area did Dracula live?",
                 answers: {
-                    a: 'Tiraspol'
-                    b: 'Targu-Mures'
+                    a: 'Tiraspol',
+                    b: 'Targu-Mures',
                     c: 'Transylvania'
                 },
                 correctAnswer: 'c'
