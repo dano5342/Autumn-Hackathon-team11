@@ -93,9 +93,7 @@ $('document').ready(function() {
                 correctAnswer: 'a'
             },
         ];
-    }
-
-    function showQuestions(questions, quizContainer) {
+        function showQuestions(questions, quizContainer) {
             var output = [];
             var answers;
             for (var i = 0; i < questions.length; i++) {
@@ -143,6 +141,8 @@ $('document').ready(function() {
         showResults(myQuestions, quizContainer, resultsContainer);
     };
 
+
+    }
 
 var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
