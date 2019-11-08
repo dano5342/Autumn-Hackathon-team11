@@ -93,6 +93,7 @@ $('document').ready(function() {
                 correctAnswer: 'a'
             },
         ];
+    };
 
         function showQuestions(questions, quizContainer) {
             var output = [];
