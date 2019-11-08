@@ -115,7 +115,7 @@ $('document').ready(function() {
                 );
             }
         }
-    }
+    };
 
     function showResults(questions, quizContainer, resultsContainer) {
 
@@ -142,7 +142,7 @@ $('document').ready(function() {
     submitButton.onclick = function() {
         showResults(questions, quizContainer, resultsContainer);
     }
-})
+
 
 var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
