@@ -1,4 +1,4 @@
-
+$(document).ready(){
 
 (function(){
     var allQuestions = [
@@ -56,3 +56,6 @@
         nextQuestion();
     });
 }
+
+
+};
