@@ -95,7 +95,7 @@ $('document').ready(function() {
         ];
     };
 
-        function showQuestions(questions, quizContainer) {
+    function showQuestions(questions, quizContainer) {
             var output = [];
             var answers;
             for (var i = 0; i < questions.length; i++) {
@@ -114,8 +114,8 @@ $('document').ready(function() {
                     '<div class="answers">' + answers.join('') + '</div>'
                 );
             }
-        }
-    });
+        };
+
 
     function showResults(questions, quizContainer, resultsContainer) {
 
@@ -149,3 +149,4 @@ var resultsContainer = document.getElementById('results');
 var submitButton = document.getElementById('submit');
 
 generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+    });
