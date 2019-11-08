@@ -9,10 +9,6 @@
 
 # The Devilish Vampire
 ## Team 11 - Autumn Hackathon
-##
-##
-
-
 
 # The Task At Hand
 
