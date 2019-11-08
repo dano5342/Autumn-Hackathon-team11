@@ -1,5 +1,5 @@
 
-
+/* --------------------Title Card ----*/
 .welcome {
     text-align: center;
     margin: auto;
@@ -9,10 +9,31 @@
 
 .welcome-text {
     border: 2px solid #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.welcome-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.welcome-flavour-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .btn {
     background-color: #000;
     color: #fff;
     border: 2px solid #000;
+    margin-top: 20px;
+}
+
+/*--------------------------Hover ---*/
+
+.btn:hover{
+    background-color: darkred;
+    border: 2px solid darkred;
+    transition: all 1s ease-in-out;
 }
