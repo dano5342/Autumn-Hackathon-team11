@@ -6,3 +6,19 @@
 * Tiffany
 * Rang3rDang3r
 * Milo
+
+# The Devilish Vampire
+## Team 11 - Autumn Hackathon
+##
+##
+
+
+
+# The Task At Hand
+
+We read about them in books - we watch them on the TV - we hear about them on the news.
+Do you think you could escape the clutches of the Devilish Vampires?
+Or Even become one
+
+Now is your chance to find out.
+
