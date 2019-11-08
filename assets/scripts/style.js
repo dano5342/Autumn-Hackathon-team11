@@ -148,5 +148,3 @@ var resultsContainer = document.getElementById('results');
 var submitButton = document.getElementById('submit');
 
 generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
-
-});
