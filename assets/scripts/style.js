@@ -115,7 +115,7 @@ $('document').ready(function() {
                 );
             }
         }
-    };
+    });
 
     function showResults(questions, quizContainer, resultsContainer) {
 
