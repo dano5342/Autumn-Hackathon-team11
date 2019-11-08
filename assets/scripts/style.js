@@ -1,58 +1,122 @@
+function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
+    var myQuestions = [
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "This is the question",
+            answers: {
+                a: 'False',
+                b: 'False',
+                c: 'True'
+            },
+            correctAnswer: 'b'
+        },
+    ];
 
-(function(){
-    var allQuestions = [
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        },
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        },
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        },
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        },
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        },
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        },
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        },
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        },
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        },
-        {question: "This is the question",
-        answers:["a:", "b:", "c:"]
-        }];
+	function showQuestions(questions, quizContainer){
+		// code will go here
+	}
 
-    questionCounter = 0;
-    selectOptions = [];
-    areaQuiz = $('#quiz');
+	function showResults(questions, quizContainer, resultsContainer){
+		// code will go here
+	}
 
-    nextQuestion();
+	// show the questions
+	showQuestions(questions, quizContainer);
 
-    $('#next').click(function(){
-        chooseOption();
-        if (isNaN(selectOptions[questionCounter])){
-            alert('Find out your fate...');
-        }
-        else {
-            questionCounter++;
-            nextQuestion();
-        }
-    });
+	// when user clicks submit, show results
+    // Incorporate an if loop for this part,
+    /*
+    if (myquestions.answer == 'a' || 'b'){
+        alert(YOU DIED)
+    }else{
 
-    $('#prev').click(function() {
-        chooseOption();
-        quesCounter--;
-        nextQuestion();
-    });
+    }
+    */
+	submitButton.onclick = function(){
+		showResults(questions, quizContainer, resultsContainer);
+	}
 }
+
+
+
