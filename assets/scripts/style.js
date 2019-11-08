@@ -1,6 +1,5 @@
 $('document').ready(function() {
 
-    function generateQuiz(questions, quizContainer, resultsContainer, submitButton) {
 
         var myQuestions = [{
                 question: "Where was Dracula born?",
@@ -93,6 +92,10 @@ $('document').ready(function() {
                 correctAnswer: 'a'
             },
         ];
+
+    function generateQuiz(questions, quizContainer, resultsContainer, submitButton) {
+
+
         function showQuestions(questions, quizContainer) {
             var output = [];
             var answers;
