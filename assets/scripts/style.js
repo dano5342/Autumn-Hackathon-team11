@@ -101,7 +101,7 @@ $('document').ready(function() {
             var answers;
             for (var i = 0; i < questions.length; i++) {
                 for (var letter in questions[i].answers) {
-                    answers.push(
+                    questions.answers.push(
                         '<label>' +
                         '<input type="radio" name="question' + i + '" value="' + letter + '">' +
                         letter + ': ' +
