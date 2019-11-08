@@ -93,13 +93,13 @@ $('document').ready(function() {
                 correctAnswer: 'a'
             },
         ];
-    };
+    }
 
     function showQuestions(questions, quizContainer) {
             var output = [];
             var answers;
             for (var i = 0; i < questions.length; i++) {
-                for (letter in questions[i].answers) {
+                for (var letter in questions[i].answers) {
                     answers.push(
                         '<label>' +
                         '<input type="radio" name="question' + i + '" value="' + letter + '">' +
@@ -114,7 +114,7 @@ $('document').ready(function() {
                     '<div class="answers">' + answers.join('') + '</div>'
                 );
             }
-        };
+        }
 
 
     function showResults(questions, quizContainer, resultsContainer) {
@@ -137,11 +137,11 @@ $('document').ready(function() {
 
         resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
     }
-    showQuestions(questions, quizContainer);
+    showQuestions(myQuestions, quizContainer);
 
     submitButton.onclick = function() {
-        showResults(questions, quizContainer, resultsContainer);
-    }
+        showResults(myQuestions, quizContainer, resultsContainer);
+    };
 
 
 var quizContainer = document.getElementById('quiz');
